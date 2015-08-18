@@ -1,0 +1,31 @@
+{
+  "name": "stretch-flag",
+  "version": "1.0.1",
+  "authors": [
+    "Dustin Dwyer <01blur6@gmail.com.com>"
+  ],
+  "description": "An element used to display flags.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed"
+  ],
+  "main": "stretch-flag.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/dustindwyer/stretch-flag/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "paper-toolbar": "PolymerElements/paper-toolbar",
+    "country-flags": "StretchProjects/country-flags"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
